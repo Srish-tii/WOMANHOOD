@@ -86,7 +86,7 @@ Through Womanhood, we aim at solving this barrier for women to connect with doct
 
 ### Screenshots
 
-![](https://github.com/Srish-tii/WOMANHOOD/blob/main/ss.PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/master/ss.PNG)
 
 ![](https://github.com/Srish-tii/WOMANHOOD/blob/main/ff.PNG)
 
