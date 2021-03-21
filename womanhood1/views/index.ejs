@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Womanhood</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+    </style>
+</head>
+
+<body style="background-color: black">
+  <nav class="navbar justify-content-between" style="background-color: #995c00">
+    <a class="navbar-brand" style="color: white"><img src="/public/images/logo.png" alt="" height="75px" /></a>
+    <div class="form-inline">
+      <a href="#generald"><button class="btn btn-lg btn-dark btn-outline-dark my-2 my-sm-0" type="submit" style="color: white;margin-right: 15px;">
+          Go To General Diagonsis
+        </button></a>
+      <a href="/pcos"><button class="btn btn-lg btn-dark btn-outline-dark my-2 my-sm-0" type="submit" style="color: white">
+          PCOS Detection
+        </button></a>
+      <a href="http://localhost/womanhood/"><button class="btn btn-lg btn-dark btn-outline-dark my-2 my-sm-0"
+          type="submit" style="color: white; margin-left: 20px">
+          Home
+        </button></a>
+    </div>
+  </nav>
+  <div class="row" style="margin: 40px">
+    <div class="col-sm-4">
+      <img src="/public/images/small1.jpeg" alt="" />
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-7" style="color: white; padding-top: 150px">
+      Women health is an extremely important agenda and cannot be neglacted.
+      Good health should be a priority, however difficult it may be for any
+      woman, especially those who lead busy lives and don’t take the time
+      needed to stay on top of their health and wellbeing or those who aren't
+      priveledged enough for the same. If you feel that you are also one of
+      those who are unable to stay up-to-date with the types and depth of
+      woman related issues and how to prevent them, we recommend you to go
+      through this page. Here, you will find a section that provides basic
+      information about women health and related diseases you must stay
+      updated with. Another extremely important section is where you can check
+      if you are facing any common disease or health problem based on any
+      currently observed symptoms or troubles in your day-to-day life. Make
+      sure you get this general diagnosis.
+    </div>
+  </div>
+  <div class="container" style="color: white">
+    <h2 style="color:#995c00">What you should know</h2>
+    <br>
+    <h6>
+      Almost all women face health issues in their life. However, the majority
+      of the Indian women are in the habit of ignoring their health issues.
+      The complications are faced by them in different age groups from
+      adolescent age to pregnancy and menopause. Psychological causes may
+      include work-related stress and anxiety. They may also include
+      depression or concerns about marriage or relationship problems. For some
+      women, the problem results from past sexual trauma. Occasional problems
+      with sexual function are common.
+    </h6>
+    <br>
+    <p>Common Health Issues Faced by Indian Women:
+    <ul>
+      <li> Menstrual issue – They can start from menarche till they achieve menopause.</li>
+      <li> Abdomen pain –Pelvic ultrasound helps in diagnosing these conditions.</li>
+      <li>Depression and Anxiety - Natural hormonal fluctuations can lead to depression or anxiety.Premenstrual syndrome (PMS) occurs commonly
+        among women, while premenstrual dysmorphic disorder (PMDD) presents similar, but greatly intensified, symptoms.
+        Shortly after birth, many mothers acquire a form of depression called the “baby blues,” but perinatal depression
+        causes similar – but much stronger – concerns, emotional shifts, sadness, and tiredness. Perimenopause, the
+        shift into menopause, can also cause depression. No matter how intense the symptoms, care providers can provide
+        relief with prescription or therapeutic treatments.</li>
+      <li>Urinary tract infection– It is the most common bacterial infection in women.</li>
+      <li>Vaginal discharge – It can be a symptom of a teenager as well as a reproductive or postmenopausal woman.</li>
+      <li> Fertility issues related to advanced age –Fertility reduces due to age-related decline in egg quality.</li>
+      <li> Pregnancy issues – Many of the women still don’t seek pre-pregnancy or preconception care in India which can
+        lead to a pregnancy with medical problems.</li>
+      <li> Obesity – In women, metabolic disturbances or hormonal imbalances polycystic ovarian disease have become
+        increasingly similar along with sedentary lifestyle and unhealthy eating options.</li>
+      <li>Cervical and breast cancer investigation- Lack of health awareness of cancer screening as needed at every age.
+      </li>
+      <li> Domestic and sexual violence in India –Female foeticide, bride burning, sexual abuse of the girl child, rape
+        and prostitution are few of the health-related issues where a woman is considered as an aggrieved person.</li>
+      <li>Heart Disease - Heart disease causes one in every four deaths among women. Although the public considers heart
+        disease a common issue among men, the condition affects males and females nearly equally. Yet, only 54 percent
+        of women realize that heart disease is the top health condition threatening their gender.</li>
+      <li>Gynecological Health - Bleeding and discharge are a normal part of the menstrual cycle.However, added symptoms
+        during menstruation may indicate health issues, and unusual symptoms, such as bleeding between menstruations and
+        frequent urinating, can mimic other health conditions.
+        Vaginal issues could also indicate serious problems such as sexually transmitted diseases (STDs) or reproductive
+        tract cancer. While care providers might treat mild infections easily, if left unchecked, they can lead to
+        conditions such as infertility or kidney failure.</li>
+    </ul>
+    </p>
+
+  </div>
+  <br>
+  <div class="container" >
+    <h1  style="color:#995c00;font-weight: bolder;" id="generald">General Diagonsis</h1>
+    <br>
+    <h4 style="color:white">Enter prominent symptoms (Preferably atleast five), separated by commas: </h4>
+    <br>
+    <table style="margin: auto;">
+      
+      <tr>
+        <td>
+          <div>
+  
+            
+              <div class="container text-center">
+                <h5 id="msg" style="color: red; align-content: center;"></h5>
+              </div>
+  
+                          
+               <form action="/" method="post">
+              <div class="form-group col-md-12">
+                 
+                 <textarea rows="3" type="text" class="form-control" id="symptom1" name="symptom1" placeholder="Enter symptoms" style="width:500px" ></textarea>
+
+    
+              </div>
+              
+             <br>
+             <h6 style="color: white;text-align: center;"><a href="/here" target="_blank">Here</a> is a list of symptoms that you can use for reference </h6>
+             <br>
+              <div style="text-align: center;">
+              
+                <button type="submit" id="loginbtn" class="btn btn-primary indigo darken-4" style="width: 200px;" >Submit</button>
+                
+              </div>
+            </form>
+        
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <div class="container" style="color:#995c00; text-align: center;">
+    <h3 style="font-weight:bolder;" id="disease"><%=data%></h3>
+  </div>
+
+
+
+
+</body>
+
+</html>

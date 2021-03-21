@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Womanhood</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+      .radio-inline{
+          margin: 4px;
+      }
+    </style>
+</head>
+
+<body style="background-color: black">
+  <nav class="navbar justify-content-between" style="background-color: #995c00">
+    <a class="navbar-brand" style="color: white"><img src="/public/images/logo.png" alt="" height="75px" /></a>
+    <div class="form-inline">
+      <a href="/"><button class="btn btn-lg btn-dark btn-outline-dark my-2 my-sm-0" type="submit" style="color: white;margin-right: 15px;">
+          Go To General Diagonsis
+        </button></a>
+        <a href="/pcos"><button class="btn btn-lg btn-dark btn-outline-dark my-2 my-sm-0" type="submit" style="color: white">
+            PCOS Detection
+          </button></a>
+      <a href="http://localhost/womanhood/"><button class="btn btn-lg btn-dark btn-outline-dark my-2 my-sm-0"
+          type="submit" style="color: white; margin-left: 20px">
+          Home
+        </button></a>
+    </div>
+  </nav>
+  
+  <br>
+  <div class="container" >
+    <h1  style="color:#995c00;font-weight: bolder;" id="generald">PCOS Detection</h1>
+    <br>
+    <h4 style="color:white">Fill The Form</h4>
+    <br>
+    <table style="margin: auto;">
+      
+      <tr>
+        <td>
+          <div>
+  
+            
+              <div class="container text-center">
+                <h5 id="msg" style="color: red; align-content: center;"></h5>
+              </div>
+  
+              
+            
+               <form action="/pcos" method="post">
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Do You get menstural periods at regular intervals?</label> <br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio1" checked>yes</label>
+                <label class="radio-inline"><input type="radio" value="n" name="optradio1">no</label>
+                <label class="radio-inline"><input type="radio" value="im"name="optradio1">Infrequent Menses</label>
+                <label class="radio-inline"><input type="radio" value="ib"name="optradio1">Irregular Bleeding</label>
+                <label class="radio-inline"><input type="radio" value="hb"name="optradio1">Heavy Bleeding</label>
+              </div>
+         
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Are you gaining weight Rapidly?</label> <br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio2" checked>yes</label>
+          <label class="radio-inline"><input type="radio" value="n" name="optradio2">no</label>
+            
+
+              </div>
+         
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Do You have Excess of facial  or Body Hair ? </label> <br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio3" checked>yes</label>
+                <label clas    <label class="radio-inline"><input type="radio" value="n" name="optradio3">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Do you Have patches of dark areas on your skin?</label><br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio4" checked>yes</label>
+              <label class="radio-inline"><input type="radio" value="n" name="optradio4">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Do You suffer from pimples?</label> <br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio5" checked>yes</label>
+              <label class="radio-inline"><input type="radio" value="n" name="optradio5">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease"></label> Do you face deppression and anxietyt?<br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio6" checked>yes</label>
+              <label class="radio-inline"><input type="radio" value="n" name="optradio6">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease"></label> Do you any family history of Diabetics and Hyper Tension?<br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio7" checked>yes</label>
+              <label class="radio-inline"><input type="radio" value="n" name="optradio7">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease"></label> Are you finding any difficulty in maintaining your body weight?<br>
+                <label class="radio-inline"><input type="radio"value="y"  name="optradio8" checked>yes</label>
+              <label class="radio-inline"><input type="radio" value="n" name="optradio8">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease"></label> Do you have an oily skin? <br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio9" checked>yes</label>
+              <label class="radio-inline"><input type="radio" value="n" name="optradio9">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease"></label> Are you lossing lot of hair or has it became thinner in its strength? <br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio10" checked>yes</label>
+                    <label class="radio-inline"><input type="radio" value="n" name="optradio10">no</label>
+ 
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Where do you Frequently eat?</label><br>
+              
+                <label class="radio-inline"><input type="radio" value="hm" name="optradio11" checked>home</label>
+                <label class="radio-inline"><input type="radio" value="out" name="optradio11">outside</label>
+          
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Do you exercise reguarly?</label<br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio12" checked>yes</label>
+                    <label class="radio-inline"><input type="radio" value="n" name="optradio12">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">I sleep after?</label> <br>
+                <input type="number" class="form-control" name="sleep" id="sleep" style="width:200px">
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">I wake up at?</label><br>
+                <input type="number"  class="form-control" name="wake" id="wake" style="width:200px">
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Are you mentally stressed due to following exercise? (Are you newly admitted to hostel ?)</label><br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio13" checked>yes</label>
+                <label class="radio-inline"><input type="radio" value="n"name="optradio13">no</label>
+
+              </div>
+              
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Are you mentally stressed due to following exercise? (Do you have personal problems?)</label><br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio14" checked>yes</label>
+                <label class="radio-inline"><input type="radio" value="n" name="optradio14">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease">Are you mentally stressed due to following exercise?(peer presure?)</label>peer pressure?<br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio15" checked>yes</label>
+                <label class="radio-inline"><input type="radio" value="n" name="optradio15">no</label>
+
+              </div>
+              
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease"></label>Are you mentally stressed due to following exercise?(Change in dietry habits ?)<br>
+                <label class="radio-inline"><input type="radio" value="y" name="optradio16" checked>yes</label>
+                <label class="radio-inline"><input type="radio"value="n" name="optradio16">no</label>
+
+              </div>
+              <div class="form-group col-md-12" style="color: white;">
+                <label for="disease"></label>  How often do you eat fast foods?<br>
+                <label class="radio-inline"><input type="radio" value="w"name="optradio17" checked>Weekly</label>
+                <label class="radio-inline"><input type="radio" value="ed"name="optradio17">Everyday</label>
+                <label class="radio-inline"><input type="radio"value="m" name="optradio17">monthly</label>
+                <label class="radio-inline"><input type="radio" value="y"name="optradio17">Yearly</label>
+
+              </div>
+              <button type="submit" id="loginbtn" class="btn btn-primary indigo darken-4" style="width: 100px;margin-left: 15px;" >Submit</button>
+              
+            </form>
+        
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <div class="container" style="color:#995c00; text-align: center;">
+    <h3 style="font-weight:bolder;" id="disease"><%=data%></h3>
+  </div>
+
+
+
+
+</body>
+
+</html>
