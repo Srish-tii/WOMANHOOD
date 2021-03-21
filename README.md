@@ -86,21 +86,21 @@ Through Womanhood, we aim at solving this barrier for women to connect with doct
 
 ### Screenshots
 
-![](https://github.com/Harsh-1309/woman-hood/blob/main/ss.PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/main/ss.PNG)
 
-![](https://github.com/Harsh-1309/woman-hood/blob/main/ff.PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/main/ff.PNG)
 
-![](https://github.com/Harsh-1309/woman-hood/blob/main/img1%20(1).PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/main/img1%20(1).PNG)
 
-![](https://github.com/Harsh-1309/woman-hood/blob/main/img2%20(1).PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/main/img2%20(1).PNG)
 
-![](https://github.com/Harsh-1309/woman-hood/blob/main/img3%20(1).PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/main/img3%20(1).PNG)
 
-![](https://github.com/Harsh-1309/woman-hood/blob/main/img4%20(1).PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/main/img4%20(1).PNG)
 
-![](https://github.com/Harsh-1309/woman-hood/blob/main/img5%20(1).PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/main/img5%20(1).PNG)
 
-![](https://github.com/Harsh-1309/woman-hood/blob/main/img6%20(1).PNG)
+![](https://github.com/Srish-tii/WOMANHOOD/blob/main/img6%20(1).PNG)
 ---------
 
 ```javascript
